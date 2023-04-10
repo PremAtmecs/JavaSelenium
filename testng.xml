@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG tutorial">
+    <parameter name="userName" value="Premkumar">
+    </parameter>
+    <listeners>
+        <listener class-name="TestNG.Listener"/>
+    </listeners>
+    <test name="car">
+        <classes>
+            <class name="TestNG.BasicTestNG"/>
+            <class name="TestNG.BikeLoan"/>
+            <class name="TestNG.CarLoan"/>
+            <class name="TestNG.HomeLoan"/>
+            <class name="TestNG.dataProvider"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
